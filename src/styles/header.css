@@ -1,0 +1,170 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	box-sizing: border-box;
+	padding-top: 10px;
+	width: 100%;
+	background-color: #f7f8f8;
+	position: sticky;
+	top: 0px;
+	z-index: 999;
+	height: 130px;
+}
+
+.iconLink {
+	padding-right: 40px;
+}
+
+.headerLink:hover {
+	fill: #3a77ff;
+}
+
+.blueOlx {
+	fill: #3a77ff;
+}
+
+#iconHolder {
+	height: 40px;
+	margin: auto;
+	margin-top: 10px;
+	max-width: 1280px;
+	display: flex;
+}
+
+#searchbar {
+	align-items: center;
+	height: 70px;
+	padding: 10px 0px 10px 0px;
+	margin: auto;
+	max-width: 1280px;
+	display: flex;
+}
+
+.selectCity {
+	height: 50px;
+	min-width: 280px;
+	margin: 0px 10px 0px 25px;
+}
+
+.search {
+	height: 50px;
+	min-width: 10px;
+	width: 700px;
+	margin: 0px 10px 0px 10px;
+}
+
+#login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+	height: 50px;
+}
+
+#login:hover {
+	cursor: pointer;
+}
+
+#login>span {
+	display: block;
+	box-sizing: content-box;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: capitalize;
+	font-size: 18px;
+	border-bottom: 2px solid #012f34;
+}
+
+#login>span:hover {
+	border: none;
+}
+
+.searchIcon {
+	fill: white;
+	background-color: #002f34;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 48px;
+}
+
+.searchIcon:hover {
+	cursor: pointer;
+}
+
+#navlinkHolder {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px 0px;
+}
+
+#navlinkHolder>div {
+	padding: 10px 0px 0px 0px;
+	max-width: 1280px;
+	margin: auto;
+	color: rgb(0, 47, 52);
+	display: flex;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.navlink {
+	margin: 10px;
+}
+
+.mainNavlink {
+	font-weight: 700;
+}
+
+#sellBtn {
+	margin-left: 20px;
+}
+
+#sellBtn:hover {
+	cursor: pointer;
+}
+
+.sellText {
+	position: absolute;
+	top: 12px;
+	left: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.sellText>img {
+	margin-bottom: 3.5px;
+}
+
+#sellBtn {
+	position: relative;
+}
+
+.search>input,
+.selectCity>input {
+	outline: none;
+	width: 100%;
+	border-radius: 4px;
+	border: 2px solid #012f34;
+	height: 50px;
+}
+
+.search>input:focus,
+.selectCity>input:focus {
+	border: 2px solid #23e5db;
+}
+
+.navlink {
+	cursor: pointer;
+}
+
+.hovLink:hover {
+	color: #00a49f;
+}

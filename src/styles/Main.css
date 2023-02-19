@@ -1,0 +1,152 @@
+.tryApp {
+	margin-top: 40px;
+	background-color: rgba(0, 47, 52, .03);
+	height: 200px;
+}
+
+.tryApp>div {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	max-width: 1280px;
+}
+
+.tryAppTextHolder {
+	margin: 0px 20px 0px 20px;
+	height: 200px;
+}
+
+.hDiv {
+	height: 160px;
+	width: 2.5px;
+	background-color: #c6d0d1;
+}
+
+.tryAppTitle {
+	margin: 24px 0px 24px 0px;
+	text-transform: uppercase;
+	color: #002f34;
+	font-family: roboto;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.tryAppText {
+	color: #002f34;
+	font-family: roboto;
+	font-size: 20px;
+	max-width: 400px;
+	font-weight: 400;
+}
+
+.dwnldApp {
+	margin-left: 25px;
+}
+
+.dwnldAppOpts {
+	display: flex;
+}
+
+.dwnldAppTitle {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0px 0px 5px 0px;
+}
+
+.dwnldAppOpts>a>img {
+	height: 40px;
+	display: block;
+	margin-right: 5px;
+}
+
+footer {
+	border-top: 1px solid rgba(0, 47, 52, .2);
+	background-color: #ebeeef;
+}
+
+footer>div {
+	box-sizing: border-box;
+	padding-top: 16px;
+	padding-bottom: 64px;
+	height: 200px;
+	max-width: 1280px;
+	margin: auto;
+	display: flex;
+}
+
+.categoryLink {
+	cursor: pointer;
+	font-size: 15px;
+	color: rgba(0, 47, 52, .64);
+}
+
+.categoryLink:hover {
+	color: #002f34;
+}
+
+.category {
+	display: flex;
+	flex-direction: column;
+	width: calc(calc(100% / 5) - 12.5px);
+}
+
+.category2 {
+	display: flex;
+	flex-direction: column;
+	width: calc(calc(100% / 5) + 50px);
+}
+
+.title {
+	color: #002f34;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.footerDownloadApp {
+	margin-top: auto;
+}
+
+.footerDownloadApp>a>img {
+	margin: auto 5px 0px 0px;
+	height: 28px;
+}
+
+.footerIcons>a>img {
+	margin: 5px 0px 0px 5px;
+	height: 24px;
+}
+
+.extra {
+	color: white;
+	background-color: #002f34;
+	padding: 15px 0px 15px 0px;
+}
+
+.extra>div {
+	margin: auto;
+	display: flex;
+	justify-content: flex-end;
+	font-family: roboto;
+	font-size: 12px;
+	max-width: 1280px;
+}
+
+.extra>div>span {
+	margin-right: 10px;
+	font-weight: 600;
+}
+
+.card {
+	width: calc(25% - 10px);
+	margin: 10px 5px 10px 5px;
+	height: 350px;
+}
+
+@media only screen and (max-width:1280px) {
+	.card {
+		width: calc(50% - 10px);
+		margin: 10px 5px 10px 5px;
+		height: 350px;
+	}
+}
